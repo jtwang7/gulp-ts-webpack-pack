@@ -1,0 +1,11 @@
+{
+  "name": "gulp-ts-webpack-pack",
+  "version": "1.0.0",
+  "description": "练习: Glup+TypeScript+Webpack 打包组件库",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "jtwang7",
+  "license": "ISC",
+  "private": "true"
+}

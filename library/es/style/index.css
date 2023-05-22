@@ -1,0 +1,65 @@
+.input-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100px;
+  height: 25px;
+  border: 1px solid #111;
+}
+.input-container .input-main {
+  display: block;
+  border: none;
+  width: 100%;
+}
+.input-container .input-main:focus {
+  outline: none;
+}
+.input-container:disabled {
+  cursor: not-allowed;
+  background-color: #f0f0f0;
+}
+.input-container .input-close-button {
+  margin: 0px 5px;
+}
+.input-container .input-close-button:hover {
+  cursor: pointer;
+}
+
+.input-tag-container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border: 1px solid #111;
+  padding: 2px 4px;
+}
+.input-tag-container .input-tag-tagger {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 5px;
+  border-radius: 0px;
+}
+.input-tag-container .input-tag-inputer {
+  border: none;
+}
+
+.tag-container {
+  display: inline;
+  border: 1px solid #111;
+  border-radius: 5px;
+  padding: 0 5px;
+  background-color: #d9d9d9;
+}
+.tag-container .tag-icon {
+  aspect-ratio: 1;
+  margin-right: 5px;
+}
+.tag-container .tag-content {
+  line-height: 100%;
+}
+.tag-container .tag-close-button {
+  margin-left: 5px;
+}
+.tag-container .tag-close-button:hover {
+  cursor: pointer;
+}

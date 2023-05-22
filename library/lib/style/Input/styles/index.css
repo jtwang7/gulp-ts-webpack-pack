@@ -1,0 +1,26 @@
+.input-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100px;
+  height: 25px;
+  border: 1px solid #111;
+}
+.input-container .input-main {
+  display: block;
+  border: none;
+  width: 100%;
+}
+.input-container .input-main:focus {
+  outline: none;
+}
+.input-container:disabled {
+  cursor: not-allowed;
+  background-color: #f0f0f0;
+}
+.input-container .input-close-button {
+  margin: 0px 5px;
+}
+.input-container .input-close-button:hover {
+  cursor: pointer;
+}
