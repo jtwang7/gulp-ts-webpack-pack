@@ -185,6 +185,9 @@ importers:
       '@tian/ui':
         specifier: workspace:^
         version: link:../library/gulp_tsc_webpack
+      '@tian/ui-rollup':
+        specifier: workspace:^
+        version: link:../library/rollup
       '@types/jest':
         specifier: ^27.5.2
         version: 27.5.2

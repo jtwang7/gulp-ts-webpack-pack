@@ -4,11 +4,11 @@
   "description": "组件库",
   "exports": {
     ".": {
-      "require": "./lib/index.js",
-      "import": "./es/index.js"
+      "require": "./lib/library/rollup/components/index.js",
+      "import": "./es/library/rollup/components/index.js"
     }
   },
-  "typings": "./es/index.d.ts",
+  "typings": "./es/library/rollup/types/index.d.ts",
   "scripts": {
     "build:esm": "rimraf ./es & rollup -c rollup.esm.config.mjs",
     "build:cjs": "rimraf ./lib & rollup -c rollup.commonjs.config.mjs",
